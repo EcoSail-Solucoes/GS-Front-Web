@@ -232,8 +232,12 @@ header {
 }
 
 .btn img {
-  width: 70%; /* Ajuste o tamanho da imagem dentro do botão */
+  width: 70%; 
   height: auto;
+}
+
+.btn:hover{
+  transform: translateY(-10px);
 }
 main {
   display: block;
