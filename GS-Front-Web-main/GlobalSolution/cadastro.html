@@ -9,7 +9,7 @@
 <body>
     <header>
         <nav class="navbar">
-          <span class="hamburger-btn" onclick="toggleMenu()">menu</span>
+          <span class="hamburger-btn" onclick="toggleMenu()"></span>
           <a href="index.html" class="logo">
             <img src="src/img/LimeWire AI Studio Asset (2).jpg" alt="logo">
             <h2>EcoSail</h2>
@@ -32,18 +32,17 @@
       <section id="login">
         <div>
             <img src="src/img/LimeWire AI Studio Asset (2).jpg" alt="" id="img-login">
-            <div id="sombra"> </div>
-            <form onsubmit="verificar_login()">
+            <div id="sombra"></div>
+            <form id="login-formulario">
                 <input type="email" name="email" placeholder="Email" id="input-email" class="input-login">
                 <input type="password" name="senha" placeholder="Senha" id="input-senha" class="input-login">
                 <input type="submit" id="btn-login" value="LOGIN">
             </form>
         </div>
-      </section>
-      <footer>
+    </section>
+    <footer>
         <h5>@2024 - todos os direitos reservados EcoSail Soluções</h5>
-      </footer>
-
-    <script src="src/js/script.js"></script>
+    </footer>
+    <script src="src/js/login.js"></script>
 </body>
 </html>
