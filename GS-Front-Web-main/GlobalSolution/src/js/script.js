@@ -1,5 +1,5 @@
 let isColor1 = true;
-const color1 = '#AFEEEE'; 
+const color1 = '#365c77'; 
 const color2 = '#6A5ACD'; 
 
 function mudarCor() {
@@ -22,7 +22,7 @@ function slideShow(){
 }
 slideShow();
 
-let imgs_tecnologia =['src/img/tecnologia1.jpg','src/img/tecnologia2.jpg','src/img/tecnologia3.jpg'];
+let imgs_tecnologia =['src/img/tecnologia1.jpg','src/img/R.png','src/img/tecnologia3.jpg'];
 
 function slideShow2(){
     document.getElementById('img-tec').src=imgs_tecnologia[index];
